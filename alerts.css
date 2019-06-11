@@ -1,0 +1,54 @@
+/*
+    .modal-body {min-width:300px;}
+    .alert-small {min-width:150px; max-width:180px;}
+    .alert-normal {min-width:250px;}
+    .alert-large {min-width:350px;}
+*/
+    .modal-dialog {
+        min-width:350px;
+    }
+
+    .middle > * {
+        position:absolute;
+        height:fit-content;
+        width:fit-content;
+        top:0; bottom:0;
+        left:0; right:0;
+        margin:auto;
+    }
+
+/*
+    .modal-dialog {
+        width:fit-content;
+        min-width:350px;
+    }
+
+    .modal-body {
+        width:350px;
+        max-width:350px;
+    }
+
+    .alert-small {
+        width:fit-content;
+        max-width:200px;
+    }
+
+    .alert-normal {
+        width:fit-content;
+        max-width:300px;
+    }
+
+    .alert-large {
+        width:fit-content;
+        max-width:400px;
+    }
+*/
+    .alert-icon {width:50px; height:50px; display:inline-block; margin-right:10px; float:right;}
+    .icon-bug {background:url("https://i.imgur.com/zxSPAEL.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-web {background:url("https://i.imgur.com/Ro3bzC8.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-logo {background:url("https://i.imgur.com/09bC4Q0.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-error {background:url("https://i.imgur.com/D7Qx5sU.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-cancel {background:url("https://i.imgur.com/Z36ZsNx.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-success {background:url("https://i.imgur.com/mHGg0Bi.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-warning {background:url("https://i.imgur.com/m1TrzOn.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}
+    .icon-countdown {background:url("https://i.postimg.cc/vTkfQ7C2/anywhere3d-countdown.png") 50% 50% / contain no-repeat rgba(255, 255, 255, 0);}

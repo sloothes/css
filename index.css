@@ -1,0 +1,70 @@
+/* index.css */
+
+
+body { 
+    margin:0px; height:100vh; 
+    overflow:hidden; 
+    font-family: Arial, sans-serif; 
+}
+
+canvas { 
+    display:block; /*  !important; */
+}
+
+#body-section { 
+    height:100%; padding-top:0px; padding-bottom:0px; 
+    background-color:rgba(0,0,0,1); overflow:hidden; 
+}
+
+.navbar.navbar-default.navbar-fixed-top { 
+    background:#000000; height:50px;
+/*  background:-webkit-linear-gradient(#484646,#020202); */
+}
+
+#render-container { 
+    width:100%; height:100%; 
+/*  background-color:rgba(225,225,225,1); */
+}
+
+#render-container,
+#render-container > canvas { 
+    background-color:#2d5fa3;
+}
+
+#joystick1, 
+#joystick2, 
+#jumpButton { 
+    z-index:0 !important; 
+}
+
+.social-holder { 
+    text-align:center; 
+    margin:10px 0px; 
+}    
+
+.menu-helpers a,
+.outfit-helpers a,
+.editor-helpers a,
+.mode-helpers a,
+.updater-helpers a,
+.component-helpers a,
+.helpers a { 
+    font:bold 16px Arial; 
+    cursor:pointer; 
+    text-decoration:none; 
+}
+
+.ui-dialog { 
+    opacity:1 !important; 
+}
+
+.left-slot, .right-slot { margin-bottom:10px; }
+.side-holder { width:100%; margin-bottom:10px; }    
+
+/*
+.modal-dialog {
+    width:fit-content;
+    min-width:250px;
+    max-width:400px;
+}
+*/
