@@ -13,7 +13,7 @@ canvas {
 
 #body-section { 
     height:100%; padding-top:0px; padding-bottom:0px; 
-    background-color:rgba(0,0,0,1); overflow:hidden; 
+    background-color:rgba(162,209,249,1); overflow:hidden; 
 }
 
 .navbar.navbar-default.navbar-fixed-top { 
