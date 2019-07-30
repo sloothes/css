@@ -73,6 +73,7 @@
 #right-side-pinbtn.pinned { background-image:url(https://i.imgur.com/o0BUWGy.png); }
 
 #hover { opacity:1; }
+#right-side-pinbtn { z-index:1000; }
 
 #left-side-content a:link     {color:#ffffff; text-decoration:initial;}
 #left-side-content a:visited  {color:#ffffff; text-decoration:initial;}
