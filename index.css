@@ -1,13 +1,14 @@
 /* index.css */
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 body { 
-    margin:0px; height:100vh; 
+    margin:0px; 
+    height:100vh; 
     overflow:hidden; 
-    font-family: Arial, sans-serif; 
+    font-family:sans-serif; 
 }
 
 canvas { 
